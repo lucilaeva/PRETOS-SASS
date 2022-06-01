@@ -1,0 +1,61 @@
+header {
+    nav {
+        padding: 0;
+        margin: 1rem;
+        .container-fluid {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            .logo-container {
+                width: 10%;
+                .logo {
+                    width: 100%;
+                }
+            }   
+            .navbar-toggler {
+                display: none;
+            }
+            .navbar-collapse{
+                .navbar-nav {
+                    width: 30rem;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    font-size: 0.9rem;
+                        .nav-item {
+                            list-style-type: none;
+                            .nav-link {
+                                color:#FFF89A;
+                                font-weight: 400;
+                                text-decoration: none;
+                            }
+                            .nav-link:hover{
+                                font-weight: bold;
+                                transform: scale(1.1);
+                                border-bottom: 0.1rem solid #FFF89A;
+                            }
+                            .dropdown-menu {
+                                list-style-type: none;
+                                text-align: center;
+                                font-size: 0.9rem;
+                                line-height: 1.3rem; 
+                                    .dropdown-item {
+                                        list-style-type: none;
+                                        text-decoration: none;
+                                        color: #FFF89A;
+                                        display: none;
+                                        position: absolute;
+                                        }
+                                        .dropdown-item:hover>ul {
+                                            display: block;
+                                        } 
+                            }       
+                            
+                        } 
+                }
+            } 
+        }
+    }
+}

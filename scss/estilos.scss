@@ -1,0 +1,25 @@
+
+/*  reset  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@import "header";
+@import "main";
+@import "footer";
+@import "mediaqueries";
+
+
+/* estilos del body pagina inicio  */
+
+.body-principal {
+    background: linear-gradient( to bottom, #6079B8, #778317) ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     
+}
+
+

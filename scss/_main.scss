@@ -1,0 +1,89 @@
+.inicio{
+    margin: 3rem;
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+    grid-template-areas: "int-titulo texto-boton";
+    .int-titulo {
+        grid-area: int-titulo;
+        background-color: #1A5F7A;
+        // background: url(../img/IMG\PRESENTACION.jpg);
+        // background-repeat: no-repeat;
+        // background-position: cover;
+        width: 100vh;
+        height: 38rem;
+        display: grid;
+        grid-template-columns: 3fr 7fr;
+        grid-template-areas: 
+                        "interaccion titulo" ;
+            .interaccion{
+                grid-area: interaccion;
+                display: flex;
+                flex-direction: column;
+                justify-content: end;
+                margin-bottom: 2rem;
+                .interaccion-img {
+                    height: 2rem;
+                    width: 2rem;
+                    margin: 0.6rem;
+
+                }
+            }
+            .titulo {
+                grid-area: titulo;
+                font-size: 1rem;
+                color: #FFC900;
+                transform: rotate(270deg);
+                text-align: end;
+                justify-self: end;
+                align-self: end;
+                height: 50px;
+                width: 23.5rem;
+                font-size: 3rem;
+                margin-left: 22rem;
+                  
+            }
+    }
+    .texto-boton{
+        grid-area: texto-boton;
+        background: #EEEEEE;
+        width: 47vh;
+        height: 38rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .texto{
+            font-size: 1.2rem;
+            line-height: 1.7rem;
+            border-left: 0.3rem solid #FFC900;
+            color: #FFC900;
+            display: flex;
+            width: 17rem;
+            margin-top: 3rem;
+            margin-left: 1.1rem;
+            padding: 1rem 2.4rem;  
+        }
+        .boton{
+            grid-area: boton;
+            // background-color: ;
+            border: solid 0.2rem #FFC900;
+            width: 10rem;
+            height: 2.1rem; 
+            display: flex;
+            justify-content: center;
+            align-self: center;
+            margin: 2rem;
+            a {
+                text-decoration: none;
+                color: #FFC900;
+                font-weight: bold;
+                font-size: 1rem;
+                padding: 0.3rem;
+                  
+            }
+        }
+        
+
+    }
+
+
+}
